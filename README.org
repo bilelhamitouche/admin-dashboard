@@ -1,0 +1,4 @@
+#+TITLE: Admin Dashboard
+#+AUTHOR: Bilel Hamitouche
+
+Simple admin dashboard created with HTML and CSS as a part of the odin project.
