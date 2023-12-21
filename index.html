@@ -8,23 +8,23 @@
   <body>
     <header>
       <nav>
-	<div class="navigation">
-	  <button class="search"><img alt="" src=""/></button>
-	  <input name="" type="search" value=""/>
+	<div class="first-div">
+	  <button class="search"><img alt="search-image" src="images/search.png" width=20px height=20px/></button>
+	  <input name="search" type="search" value=""/>
 	</div>
-	<div class="navigation">
-	  <img alt="" src=""/>
-	  <img alt="" src=""/>
-	  <h4>Darth Vader</h4>
+	<div class="second-div">
+	  <button class="bell"><img alt="bell-image" src="images/bell.png" width=20px height=20px/></button>
+	  <img alt="lion-image" src="images/lion.png" width=40px height=40px/>
+	  <h4>Lion King</h4>
 	</div>
-	<div class="navigation">
-	  <img alt="darth-vader-image" src="images/darth-vader.jpg" width=50px height=45px/>
+	<div class="third-div">
+	  <img alt="lion-image" src="images/lion.png" width=60px height=60px/>
 	  <div class="profile">
-	    <p>Hi, there</p>
-	    <h2>Darth Vader(@darthvader)</h2>
+	    <p>Hi there,</p>
+	    <h2>Lion King (@lionking)</h2>
 	  </div>
 	</div>
-	<div class="navigation">
+	<div class="fourth-div">
 	  <button>New</button>
 	  <button>Upload</button>
 	  <button>Share</button>
@@ -32,19 +32,41 @@
       </nav>
     </header>
     <aside>
-      <h1>Dashboard</h1>
+      <div class="dashboard">
+	<img alt="dashboard-custom-image" src="images/dashboard-custom.png"/>
+	<h1 class="dashboard-title">Dashboard</h1>
+      </div>
       <ul class="settings">
-	<li><a href="">Home</a></li>
-	<li><a href="">Profile</a></li>
-	<li><a href="">Messages</a></li>
-	<li><a href="">History</a></li>
-	<li><a href="">Tasks</a></li>
-	<li><a href="">Communities</a></li>
+	<li>
+	  <img alt="home-image" src="images/home-custom.png"/>
+	  <a href="">Home</a>
+	</li>
+	<li>
+	  <img alt="account-image" src="images/account-custom.png"/>
+	  <a href="">Profile</a></li>
+	<li>
+	  <img alt="message-image" src="images/message-custom.png"/>
+	  <a href="">Messages</a></li>
+	<li>
+	  <img alt="clock-image" src="images/clock-custom.png"/>
+	  <a href="">History</a></li>
+	<li>
+	  <img alt="note-image" src="images/note-multiple-custom.png"/>
+	  <a href="">Tasks</a></li>
+	<li>
+	  <img alt="account-group-image" src="images/account-group-custom.png"/>
+	  <a href="">Communities</a></li>
       </ul>
       <ul class="settings">
-	<li><a href="">Settings</a></li>
-	<li><a href="">Support</a></li>
-	<li><a href="">Privacy</a></li>
+	<li>
+	  <img alt="home-image" src="images/home-custom.png"/>
+	  <a href="">Settings</a></li>
+	<li>
+	  <img alt="home-image" src="images/home-custom.png"/>
+	  <a href="">Support</a></li>
+	<li>
+	  <img alt="home-image" src="images/home-custom.png"/>
+	  <a href="">Privacy</a></li>
       </ul>
     </aside>
     <main>
@@ -54,62 +76,86 @@
 	  <div class="card">
 	    <div class="color"></div>
 	    <div class="text">
-	      <h4>Super Cool Project</h4>
+	      <a href="">Super Cool Project</a>
 	      <p>
-		Eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi, quis eleifend quam adipiscing vitae proin sagittis, nisl rhoncus mattis rhoncus! Enim ut sem viverra aliquet eget sit amet?
+		Eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi, quis eleifend quam adipiscing vitae proin sagittis.
 	      </p>
 	    </div>
-	    <div class="buttons"></div>
+	    <div class="buttons">
+	      <img alt="star-image" src="images/star-custom.png"/>
+	      <img alt="eye-image" src="images/eye-custom.png"/>
+	      <img alt="source-fork-image" src="images/source-fork-custom.png"/>
+	    </div>
 	  </div>
 	  <div class="card">
 	    <div class="color"></div>
 	    <div class="text">
-	      <h4>Less Cool Project</h4>
+	      <a href="">Less Cool Project</a>
 	      <p>
-		Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Nisl rhoncus mattis rhoncus, urna neque viverra justo, nec ultrices dui sapien eget mi proin sed libero enim, sed faucibus turpis in?
+		Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Nisl rhoncus mattis rhoncus.
 	      </p>
 	    </div>
-	    <div class="buttons"></div>
+	    <div class="buttons">
+	      <img alt="star-image" src="images/star-custom.png"/>
+	      <img alt="eye-image" src="images/eye-custom.png"/>
+	      <img alt="source-fork-image" src="images/source-fork-custom.png"/>
+	    </div>
 	  </div>
 	  <div class="card">
 	    <div class="color"></div>
 	    <div class="text">
-	      <h4>Impossible App</h4>
+	      <a href="">Impossible App</a>
 	      <p>
-		Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum varius duis at consectetur lorem donec massa! Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla?
+		Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget arcu.
 	      </p>
 	    </div>
-	    <div class="buttons"></div>
+	    <div class="buttons">
+	      <img alt="star-image" src="images/star-custom.png"/>
+	      <img alt="eye-image" src="images/eye-custom.png"/>
+	      <img alt="source-fork-image" src="images/source-fork-custom.png"/>
+	    </div>
 	  </div>
 	  <div class="card">
 	    <div class="color"></div>
 	    <div class="text">
-	      <h4>Easy Peasy App</h4>
+	      <a href="">Easy Peasy App</a>
 	      <p>
-		Tempor commodo, ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at. Ac placerat vestibulum, lectus mauris ultrices eros, in cursus turpis massa tincidunt dui ut ornare lectus sit.
+		Tempor commodo, ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at
 	      </p>
 	    </div>
-	    <div class="buttons"></div>
+	    <div class="buttons">
+	      <img alt="star-image" src="images/star-custom.png"/>
+	      <img alt="eye-image" src="images/eye-custom.png"/>
+	      <img alt="source-fork-image" src="images/source-fork-custom.png"/>
+	    </div>
 	  </div>
 	  <div class="card">
 	    <div class="color"></div>
 	    <div class="text">
-	      <h4>Ad Block</h4>
+	      <a href="">Ad Block</a>
 	      <p>
-		Leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero, id faucibus nisl tincidunt eget nullam? Libero nunc, consequat interdum varius sit amet, mattis vulputate enim nulla aliquet.
+		Leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero, id faucibus nisl tincidunt eget nullam?
 	      </p>
 	    </div>
-	    <div class="buttons"></div>
+	    <div class="buttons">
+	      <img alt="star-image" src="images/star-custom.png"/>
+	      <img alt="eye-image" src="images/eye-custom.png"/>
+	      <img alt="source-fork-image" src="images/source-fork-custom.png"/>
+	    </div>
 	  </div>
 	  <div class="card">
 	    <div class="color"></div>
 	    <div class="text">
-	      <h4>Money Maker</h4>
+	      <a href="">Money Maker</a>
 	      <p>
-		Quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus, viverra vitae congue eu, consequat! Rhoncus, urna neque viverra justo, nec ultrices dui sapien!
+		Quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus, viverra vitae congue eu, consequat!
 	      </p>
 	    </div>
-	    <div class="buttons"></div>
+	    <div class="buttons">
+	      <img alt="star-image" src="images/star-custom.png"/>
+	      <img alt="eye-image" src="images/eye-custom.png"/>
+	      <img alt="source-fork-image" src="images/source-fork-custom.png"/>
+	    </div>
 	  </div>
 	</div>
       </div>
@@ -117,28 +163,53 @@
 	<h3>Announcements</h3>
 	<article class="announcements">
 	  <div class="announcement">
+	    <h5>Site Maintenance</h5>
 	    <p>
-	      Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor, at auctor urna nunc id! Elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna?
+	      Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor.
 	    </p>
 	  </div>
 	  <div class="announcement">
+	    <h5>Community Share Day</h5>
 	    <p>
-	      Pellentesque habitant morbi tristique senectus? Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim, sit amet venenatis urna cursus eget nunc scelerisque viverra mauris!
+	      Pellentesque habitant morbi tristique senectus? Egestas quis ipsum suspendisse ultrices gravida dictum fusce.
 	    </p>
 	  </div>
 	  <div class="announcement">
+	    <h5>Updated Privacy Policy</h5>
 	    <p>
-	      Congue nisi, vitae suscipit tellus mauris a diam maecenas sed enim ut sem! Massa massa ultricies mi, quis hendrerit dolor magna eget est lorem ipsum dolor sit amet, consectetur adipiscing.
+	      Congue nisi, vitae suscipit tellus mauris a diam maecenas sed enim ut sem! Massa massa ultricies mi.
 	    </p>
 	  </div>
 	</article>
 	<h3>Trending</h3>
 	<article class="trending">
 	  <div class="trend">
+	    <img alt="cat-image" src="images/cat.png" width=50px height=50px/>
+	    <div class="cat">
+	      <p>@Cat</p>
+	      <p>Best Cat Project</p>
+	    </div>
 	  </div>
 	  <div class="trend">
+	    <img alt="owl-image" src="images/owl.png" width=50px height=50px/>
+	    <div class="dog">
+	      <p>Owl</p>
+	      <p>Best Owl Project</p>
+	    </div>
 	  </div>
 	  <div class="trend">
+	    <img alt="dog-image" src="images/dog.png" width=50px height=50px/>
+	    <div class="dog">
+	      <p>Dog</p>
+	      <p>Best Dog Project</p>
+	    </div>
+	  </div>
+	  <div class="trend">
+	    <img alt="tiger-image" src="images/tiger.png" width=50px height=50px/>
+	    <div class="tiger">
+	      <p>Tiger</p>
+	      <p>Best Tiger Project</p>
+	    </div>
 	  </div>
 	</article>
       </div>
